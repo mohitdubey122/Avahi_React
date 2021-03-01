@@ -1,0 +1,20 @@
+.PortIcon, .ProjectIcon, .ConstructionIcon, .MobileIcon {
+    font-size: 80px;
+}
+
+.Pencil, .Check, .UserTie, .ManyUser {
+    position: absolute;
+    top: 80px;
+    left: 94px;
+    font-size: xxx-large;
+}
+
+.Right_Circle {
+    position: absolute;
+    right: 8px;
+}
+
+.Search:hover{
+    outline: none;
+    cursor: pointer;
+}

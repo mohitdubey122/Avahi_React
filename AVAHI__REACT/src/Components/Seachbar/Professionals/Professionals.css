@@ -1,0 +1,37 @@
+.Professionals {
+    position: absolute;
+    left: 360px;
+    width: 56%;
+    height: 18%;
+    background-color: white;
+    top: 310px;
+    display: grid;
+    grid-template-rows: 185px 170px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    justify-content: center;
+}
+
+.Professionals div div {
+    display: grid;
+    justify-content: center;
+    color: black;
+}
+
+.Professionals div div h4 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Interior_Designers .Interior_Designers_Child h4{
+    margin-top: 10px;
+}
+
+.Architects .Architects_Child h4 {
+    margin-top: 23px;
+}
+
+.Contractors__parent .Contractors_child h4 {
+    margin-top: 17px;
+}

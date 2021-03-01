@@ -1,0 +1,17 @@
+.select {
+    border-radius: 8px;
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+    padding: 27px;
+}
+
+#places {
+    background-color: rgba(173, 162, 162, 0.788);
+    width: 12%;
+    font: bold 15px 'Poppins', sans-serif ;
+}
+
+.searchText:focus, select:focus {
+    outline: none;
+}

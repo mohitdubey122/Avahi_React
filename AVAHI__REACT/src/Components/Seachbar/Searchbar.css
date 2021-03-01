@@ -1,0 +1,26 @@
+.findProfessionals {
+    border: 1px solid black;
+    width: 56%;
+    margin-left: 30px;
+    border-radius: 8px;
+    box-shadow: 2px 1px 3px 1px;
+    padding: 20px 0px;
+}
+
+.findProfessionals input {
+    height: 100%;
+    width: 90%;
+    margin-left: 20px;
+    border: none;
+    font-size: 23px;
+}
+
+.searchText:focus{
+    outline: none;
+}
+
+.searchIcon {
+    font-size: 26px;
+    margin-left: 20px;
+}
+

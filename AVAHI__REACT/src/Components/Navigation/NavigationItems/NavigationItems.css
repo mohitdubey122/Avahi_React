@@ -1,0 +1,26 @@
+.header__links{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header__links a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.companyIcon{
+    margin-left: 3px;
+    height: 25px;
+    font-size: 22px;
+    position: absolute;
+}
+
+.userIcon i{
+    font-size: 50px;
+    margin-left: 9px;
+}

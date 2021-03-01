@@ -1,0 +1,29 @@
+.Cards{
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    padding: 0px 80px;
+    margin-top: 36px;
+}
+
+.Cards div {
+    border: 2px solid black;
+    width: 240px;
+    position: relative;
+    border-radius: 12px;
+}
+
+.Cards a {
+    position: absolute;
+    top: 200px;
+    color: black;
+    font-weight: bold;
+}
+
+.Create_Profile, .Get_Profile {
+    left: 31%;
+}
+
+.Build_Your_Portfolio, .Get_Clients {
+    left: 21%;
+}

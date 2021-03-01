@@ -1,0 +1,60 @@
+.KeyFeatures {
+    margin-top: 70px;
+    padding: 0px 30px;
+}
+
+.KeyFeatures_Heading {
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 7px;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+}
+
+.KeyFeatures_Child {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: auto;
+    margin-top: 40px;
+    width: 100%;
+    height: 60%;
+}
+
+.KeyFeatures_Child > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Port, .Project, .Construction, .MobileEtracking {
+    height: 140px;
+}
+
+.Port_Child, .Project_Child, .Construction_Child {
+    width: 197px;
+    font-weight: bold;
+}
+
+.MobileETracking_Child {
+    width: 160px;
+    font-weight: bold;
+}
+
+#PortIcon, #ProjectIcon, #ConstructionIcon, #MobileIcon {
+    font-size: 80px;
+}
+
+.your_way {
+    margin: 80px 0px 30px 0px;
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 7px;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;
+}
+
+.simple_step {
+    color: darkorange;
+}

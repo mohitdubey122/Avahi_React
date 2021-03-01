@@ -1,0 +1,41 @@
+.Footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.0rem;
+    height: 17rem;
+    width: 100%;
+    margin-top: 30vh;
+    background-color: rgb(133, 130, 130);
+}
+
+.Footer::before{
+    content:"";
+    position: absolute;
+    background-color: #686868;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(90% 81%, 100% 1%, 100% 100%, 0% 100%);
+}
+
+.Footer_Children {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.Footer_Children a {
+    color: #e6d5d5;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.Footer_Statement p {
+    color: #e6d5d5;
+    font-size: 20px;
+    margin-top: 10px;
+}

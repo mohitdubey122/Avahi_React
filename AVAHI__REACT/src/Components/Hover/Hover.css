@@ -1,0 +1,21 @@
+.Hover {
+    /* display: none; */
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-around;
+    text-align: center;
+    width: 160px;
+    height: 210px;
+    border: 2px solid black;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 62%);
+    top: 54px;
+    right: 170px;
+    border-radius: 8px;
+}
+
+.Hover a {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
